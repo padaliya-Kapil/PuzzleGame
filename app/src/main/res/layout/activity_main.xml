@@ -12,180 +12,215 @@
         android:layout_height="match_parent"
         app:rowCount="4"
         app:columnCount="4">
+
         <Button
             android:id="@+id/button1"
-            app:layout_column= "0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:onClick="sourceButtonListner"
             android:text="1"
-            android:layout_height="0dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
             app:layout_rowWeight="1"
-            android:layout_width="0dp"
-            app:layout_columnWeight= "1"
-            tools:visibility="visible"
-            app:layout_row="0" />
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/button2"
-            app:layout_row= "0"
-            app:layout_column= "1"
-            android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
+            android:layout_height="0dp"
             android:onClick="sourceButtonListner"
-            android:text="2" />
+            android:text="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button3"
-            app:layout_row= "0"
-            android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
-            app:layout_column= "2"
+            android:layout_height="0dp"
             android:onClick="sourceButtonListner"
-            android:text="3" />
+            android:text="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
-            app:layout_row= "0"
-            app:layout_column= "3"
             android:onClick="sourceButtonListner"
-            android:text="4" />
+            android:text="4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button5"
-            app:layout_row= "1"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
-            app:layout_column= "0"
             android:onClick="sourceButtonListner"
-            android:text="5" />
+            android:text="5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button6"
-            app:layout_row= "1"
-            app:layout_column= "1"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:onClick="sourceButtonListner"
-            android:text="6" />
+            android:text="6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button7"
-            app:layout_row= "1"
-            app:layout_column= "2"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:onClick="sourceButtonListner"
-            android:text="7" />
+            android:text="7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button8"
-            app:layout_row= "1"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
-            app:layout_column= "3"
             android:onClick="sourceButtonListner"
-            android:text="8" />
+            android:text="8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button9"
-            app:layout_row= "2"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
-            app:layout_column= "0"
             android:onClick="sourceButtonListner"
-            android:text="9" />
+            android:text="9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button10"
-            app:layout_row= "2"
-            app:layout_column= "1"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
-            android:text="10" />
+            android:onClick="sourceButtonListner"
+            android:text="10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button11"
-            app:layout_row= "2"
-            app:layout_column= "2"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:onClick="sourceButtonListner"
-            android:text="11" />
+            android:text="11"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button12"
-            app:layout_row= "2"
-            app:layout_column= "3"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:onClick="sourceButtonListner"
-            android:text="12" />
+            android:text="12"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button13"
-            app:layout_row= "3"
-            app:layout_column= "0"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:onClick="sourceButtonListner"
-            android:text="13" />
+            android:text="13"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button14"
-            app:layout_row= "3"
-            app:layout_column= "1"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:onClick="sourceButtonListner"
-            android:text="14" />
+            android:text="14"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button15"
-            app:layout_row= "3"
-            app:layout_column= "2"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
             android:onClick="sourceButtonListner"
             android:text="15"
-            app:layout_columnWeight="1" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/button16"
-            app:layout_row= "3"
-            app:layout_column= "3"
             android:layout_width="0dp"
-            app:layout_columnWeight= "1"
             android:layout_height="0dp"
-            app:layout_rowWeight="1"
-            android:onClick="sourceButtonListner" />
+            android:background="@color/colorButtonDefault"
+            android:onClick="sourceButtonListner"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorText"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
 
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
